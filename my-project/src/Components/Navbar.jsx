@@ -31,7 +31,7 @@ const Navbar = () => {
 
           <div className="text-gray-600 text-lg  cursor-pointer  hover:text-gray-400 "> Contact</div>
 
-          <div className="bg-orange-600  cursor-pointer hover:bg-orange-500  font-semibold text-gray-100 py-3 rounded-full px-5"> Buy Now</div>
+          <div className="bg-[#f7644c]  cursor-pointer hover:bg-orange-500  font-semibold text-gray-100 py-3 rounded-full px-5"> Buy Now</div>
         </div>
       </div>
     </nav>
@@ -76,7 +76,7 @@ const Navbar = () => {
             </div>
 
             <div className="py-10 px-10">
-              <div className="bg-orange-600 h-16 hover:ring-1 ring-white w-48 text-center text-2xl  font-semibold text-gray-100  rounded-full px-8 py-3">
+              <div className="bg-[#f7644c] h-16 hover:ring-1 ring-white w-48 text-center text-2xl  font-semibold text-gray-100  rounded-full px-8 py-3">
                 <span>Buy Now</span>
               </div>
             </div>

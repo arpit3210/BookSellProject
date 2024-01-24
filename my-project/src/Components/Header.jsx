@@ -10,7 +10,7 @@ const Header = () => {
         </div>
 
         <div className=" sm:w-full  lg:w-1/2 lg:h-[140vh] xl:w-1/2">
-          <h1 className=" md:mt-56 mt-20 font-bold  text-orange-600 md:text-3xl text-center md:px-24 px-3 text-xl ">
+          <h1 className=" md:mt-56 mt-20 font-bold  text-[#f7644c] md:text-3xl text-center md:px-24 px-3 text-xl ">
             Demystifying Web3, NFTs, and the Blockchain for Everyday Businesses
             and Consumers
           </h1>
@@ -43,7 +43,7 @@ const Header = () => {
           </p>
 
           <div className="flex text-center flex-col justify-center items-center  gap-4">
-            <div className="text-4xl  my-4 font-semibold text-thin text-orange-600 ">
+            <div className="text-4xl  my-4 font-semibold text-thin text-[#f7644c] ">
               Buy It Now
             </div>
 
@@ -51,12 +51,12 @@ const Header = () => {
 Harvard Book Store
 Europe */}
 
-            <div className="bg-orange-600 w-36 cursor-pointer hover:bg-orange-500  font-semibold text-gray-100 py-3 rounded-full px-5">
+            <div className="bg-[#f7644c] w-36 cursor-pointer hover:bg-orange-500  font-semibold text-gray-100 py-3 rounded-full px-5">
               {" "}
               Amazon
             </div>
 
-            <div className="bg-orange-600 w-36 cursor-pointer hover:bg-orange-500  font-semibold text-gray-100 py-3 rounded-full px-5">
+            <div className="bg-[#f7644c] w-36 cursor-pointer hover:bg-orange-500  font-semibold text-gray-100 py-3 rounded-full px-5">
               {" "}
               Buy Now
             </div>

@@ -22,16 +22,16 @@ const Navbar = () => {
 
 <nav className="bg-gray-100 max-lg:hidden  h-20 py-4 px-10 pl-14 shadow-2xl   ">
       <div className="flex flex-row justify-between items-center">
-        <div className="text-3xl font-extrabold font-mono ">
+        <div className="text-3xl cursor-pointer font-extrabold font-mono ">
           <h1>The Everything Token</h1>
         </div>
 
         <div className="flex flex-row gap-7 items-center  pr-5">
-          <div className="text-gray-600 text-lg "> Authors </div>
+          <div className="text-gray-600 text-lg  cursor-pointer hover:text-gray-400  "> Authors </div>
 
-          <div className="text-gray-600 text-lg "> Contact</div>
+          <div className="text-gray-600 text-lg  cursor-pointer  hover:text-gray-400 "> Contact</div>
 
-          <div className="bg-orange-600 font-semibold text-gray-100 py-3 rounded-full px-5"> Buy Now</div>
+          <div className="bg-orange-600  cursor-pointer hover:bg-orange-500  font-semibold text-gray-100 py-3 rounded-full px-5"> Buy Now</div>
         </div>
       </div>
     </nav>

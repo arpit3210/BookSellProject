@@ -3,6 +3,9 @@ import { FaLinkedinIn, FaLink } from "react-icons/fa";
 import PropTypes from "prop-types";
 import { FaXTwitter } from "react-icons/fa6";
 
+import { Scott_Duke, SK_Headshot } from "../assets/Images/Reviewers";
+
+
 const AuthorProfile = ({
   name,
   description,
@@ -23,7 +26,7 @@ const AuthorProfile = ({
         </div>
 
         <div className="lg:px-9 px-7 ">
-          <h1 className="text-[#f7644c] text-3xl lg:text-center font-semibold lg:mt-14 mt-7 mb-5 ">
+          <h1 className="text-[#f7644c] text-3xl md:text-center font-semibold lg:mt-14 mt-7 mb-5 ">
             {name}
           </h1>
 
@@ -75,7 +78,7 @@ const Authors = () => {
         <AuthorProfile
           name="Steve Kaczynski"
           description="Steve Kaczynski has more than fifteen years of experience as a communications and marketing professional, including stints in leadership at Progressive Insurance and Nestlé. Now a tech entrepreneur, consultant, and commentator, he cohosts the popular Web3 morning show Coffee with Captain, and serves as the Community Lead for Starbucks Odyssey, the coffee company's NFT-based loyalty program."
-          imageSrc="https://images.squarespace-cdn.com/content/v1/65144eeb1cd20b220187096c/6fd50a24-7e5f-4700-bb54-f526624cc3f6/SK_Headshot_2023_SQ.jpg?format=1500w"
+          imageSrc={SK_Headshot}
           twitterLink="https://twitter.com/NFTbark"
           linkedinLink="https://www.linkedin.com/in/skaczynski/"
           personalLink="https://www.stevekaczynski.com/"
@@ -90,7 +93,7 @@ const Authors = () => {
             </>
           }
           description="Scott Duke Kominers is the Sarofim-Rock Professor of Business Administration at Harvard Business School; a Faculty Affiliate of the Harvard Department of Economics; and an a16z crypto Research Partner. He co-leads Harvard's Crypto, Fintech, and Web3 Lab. He also advises companies and serves as an expert on marketplace design, NFTs, and Web3 strategy."
-          imageSrc="https://images.squarespace-cdn.com/content/v1/65144eeb1cd20b220187096c/ab15981e-095c-4894-a9e8-b48af3169143/Scott_Duke_Kominers_headshot.jpg?format=1500w"
+          imageSrc={Scott_Duke}
           twitterLink="https://twitter.com/skominers"
           linkedinLink="https://www.linkedin.com/in/scott-kominers/"
           personalLink="http://scottkom.com/"

@@ -7,7 +7,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="min-h-screen max-md:p-3 bg-teal-50">
+    <div className="min-h-screen max-md:p-3 mt-52 max-sm:pb-44 bg-teal-50">
       <div className="flex justify-center items-center">
         <div className="container h-screen max-w-3xl  mx-auto my-8">
           <h1 className="text-4xl text-center font-semibold text-[#f7644c]">

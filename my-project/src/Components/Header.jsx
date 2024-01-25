@@ -56,7 +56,7 @@ Europe */}
               Amazon
             </div>
 
-            <div className="bg-[#f7644c] w-36 cursor-pointer hover:bg-orange-500  font-semibold text-gray-100 py-3 rounded-full px-5">
+            <div className="bg-[#f7644c] mb-28 w-36 cursor-pointer hover:bg-orange-500  font-semibold text-gray-100 py-3 rounded-full px-5">
               {" "}
               Buy Now
             </div>

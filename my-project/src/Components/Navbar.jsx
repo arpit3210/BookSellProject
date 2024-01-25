@@ -51,7 +51,7 @@ const Navbar = () => {
           </div>
         </nav>
       ) : (
-        <nav className="bg-emerald-950 fixed top-0 ">
+        <nav className="bg-emerald-950 z-40  fixed top-0 ">
       <div className="   ">
 
       <div className="max-h-[10vh] w-[100vw]   text-orange-500  py-5 pl-5  flex justify-between items-center   ">

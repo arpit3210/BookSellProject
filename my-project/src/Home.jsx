@@ -2,7 +2,7 @@ import React from "react";
 import {
   Testimonial,
   Authors,
-  Connect,
+  ContactForm,
   Header,
   // Bookstore,
   Footer,
@@ -37,7 +37,7 @@ const Home = () => {
 
 
       <div>
-        <Connect />
+        <ContactForm />
       </div>
 
 

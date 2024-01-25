@@ -1,9 +1,9 @@
 import Testimonial from "./Testimonial";
 import Authors from "./Authors";
-import Connect from "./Connect";
+import ContactForm from "./ContactForm";
 import Header from "./Header";
 import Bookstore from "./Bookstore";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
   
-export { Testimonial, Authors, Connect, Header, Bookstore, Footer, Navbar}
+export { Testimonial, Authors, ContactForm, Header, Bookstore, Footer, Navbar}

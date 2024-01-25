@@ -37,7 +37,7 @@ const Home = () => {
 
 
       <div>
-        <ContactForm />
+        {/* <ContactForm /> */}
       </div>
 
 

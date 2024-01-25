@@ -7,20 +7,20 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="min-h-screen bg-teal-50">
+    <div className="min-h-screen max-md:p-3 bg-teal-50">
       <div className="flex justify-center items-center">
-        <div className="container h-screen max-w-2xl  mx-auto my-8">
+        <div className="container h-screen max-w-3xl  mx-auto my-8">
           <h1 className="text-4xl text-center font-semibold text-[#f7644c]">
             Want to Connect with the Authors?
           </h1>
 
-          <p className="pt-7 text-center mt-3">
+          <p className="pt-7 text-gray-500 leading-8 text-center mt-3">
             Are you interested in buying The Everything Token in bulk, having us
             speak to your team or organization, or want to chat about something
             else? Fill out the form below.
           </p>
 
-          <form onSubmit={handleSubmit} className="max-w-2xl mx-auto   ">
+          <form onSubmit={handleSubmit} className="max-w-3xl mx-auto   ">
             <label
               htmlFor="firstName"
               className="block text-lg  py-5 font-normal text-gray-600"
@@ -28,7 +28,7 @@ const ContactForm = () => {
               Name <Required />
             </label>
 
-            <div className="flex max-w-2xl gap-[11px]">
+            <div className="flex max-w-3xl gap-[11px]">
               <div className=" w-1/2 mb-4">
                 <label
                   htmlFor="firstName"

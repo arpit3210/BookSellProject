@@ -1,7 +1,14 @@
 import React from "react";
 import { HeaderImage } from "../assets/Images/index";
+import { useBookstore } from '../Contexts/BookstoreContext';
+import { Link } from "react-router-dom";
 
 const Header = () => {
+
+  const { account, booksOrdered, setBooksOrdered, initWeb3 } = useBookstore();
+
+  console.log("Account Address from Header", account );
+
   return (
     <div>
       <div className="flex flex-wrap  ">
@@ -51,15 +58,29 @@ const Header = () => {
 Harvard Book Store
 Europe */}
 
+
+{!account && 
+  <div className="bg-[#f7644c] w-36 cursor-pointer hover:bg-orange-500  font-semibold text-gray-100 py-3 rounded-full px-5" onClick={initWeb3} >
+              {" "}
+             Metamask Login
+            </div>
+}
+
+
+
             <div className="bg-[#f7644c] w-36 cursor-pointer hover:bg-orange-500  font-semibold text-gray-100 py-3 rounded-full px-5">
               {" "}
               Amazon
             </div>
 
-            <div className="bg-[#f7644c] mb-28 w-36 cursor-pointer hover:bg-orange-500  font-semibold text-gray-100 py-3 rounded-full px-5">
+
+            <Link to="/Bookstore" >
+          <div className="bg-[#f7644c] mb-28 w-36 cursor-pointer hover:bg-orange-500  font-semibold text-gray-100 py-3 rounded-full px-5">
               {" "}
               Buy Now
             </div>
+          </Link>
+        
           </div>
         </div>
       </div>

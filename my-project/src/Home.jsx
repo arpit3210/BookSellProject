@@ -24,19 +24,19 @@ const Home = () => {
 
 
 
-      <div>
+      <div id="Testimonial" >
         <Testimonial />
       </div>
 
 
 
-      <div>
+      <div id="Authors">
         <Authors />
       </div>
 
 
 
-      <div>
+      <div id="ContactForm">
         <ContactForm />
       </div>
 
@@ -45,7 +45,7 @@ const Home = () => {
 
 
 
-      <div>
+      <div id="Footer">
         <Footer />
       </div>
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { Puzzle } from "../assets/Images";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -14,7 +15,10 @@ const Footer = () => {
         <div className="md:py-10 md:px-10 md:pr-20   py-5 px-5 pr-10  ">
           <div className=" cursor-pointer  text-4xl ">Buy It Now</div>
 
-          <div className="flex justify-between gap-16 my-5 items-end">
+     
+
+<Link to="/">
+<div className="flex justify-between gap-16 my-5 items-end">
             <div className="flex flex-col gap-5">
               <span className="underline cursor-pointer   text-3xl font-extralight">Home</span>
 
@@ -41,6 +45,9 @@ const Footer = () => {
               </span>
             </div>
           </div>
+
+</Link>
+
         </div>
       </div>
 

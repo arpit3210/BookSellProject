@@ -14,16 +14,16 @@ import 'react-toastify/dist/ReactToastify.css';
 export default function App() {
   return (
     <>
-      <BrowserRouter>
         <BookstoreProvider>
+      <BrowserRouter>
       
           <Routes>
             <Route path="/" element={<Home />} />
          
             <Route path="/Bookstore" element={<Bookstore />} />
           </Routes>
-        </BookstoreProvider>
       </BrowserRouter>
+        </BookstoreProvider>
     </>
   );
 }

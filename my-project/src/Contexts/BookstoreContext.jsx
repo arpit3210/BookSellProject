@@ -1,5 +1,5 @@
 // BookstoreContext.js
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import React, { createContext, useContext, useState } from 'react';
 
 
 import Web3 from 'web3';
